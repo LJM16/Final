@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Scene : MonoBehaviour
+public class SceneLoader : MonoBehaviour
 {
    public void Next()
    {
