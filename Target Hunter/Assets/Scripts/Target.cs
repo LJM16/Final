@@ -18,8 +18,8 @@ public class Target : MonoBehaviour
         //change variables so they correspond to game
         if(other.gameObject.tag == "Bullet")
         {
+               Destroy(other.gameObject);
              _gameManager.UpdateScore();
-             Destroy(other.gameObject);
              Destroy(this.gameObject);   
         }    
         
